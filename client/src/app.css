@@ -1,0 +1,59 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 500px;
+    padding: 10px 20px 10px 20px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input {
+    width: 100%;
+    margin: 10px auto 10px auto;
+    outline: none;
+    padding: 15px;
+    border: none;
+}
+.form input:focus {
+    outline: none;
+}
+
+.form button {
+    width: 100%;
+    margin: 10px auto 10px auto;
+    background-color: #12b0e8;
+    color: #ffffff;
+    outline: none;
+    padding: 15px;
+    border: none;
+}
+
+.options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.options button {
+    width: calc(50% - 5px);
+}
+.op-1 {
+    margin: 0 5px 5px 0 !important;
+}
+.op-2 {
+    margin: 0 0 5px 5px !important;
+}
+.op-3 {
+    margin: 5px 5px 0 0 !important;
+}
+.op-4 {
+    margin: 5px 0 0 5px !important;
+}
