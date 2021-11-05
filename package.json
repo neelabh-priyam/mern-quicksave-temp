@@ -2,8 +2,6 @@
     "name": "mern-quicksave",
     "version": "1.0.0",
     "scripts": {
-        "start": "node server/index.js",
-        "build": "cd server && npm install",
-        "heroku-postbuild": "cd client && npm install && npm build"
+        "heroku-postbuild": "npm install --prefix ./server && npm install --prefix ./client && npm build --prefix ./client"
     }
 }
