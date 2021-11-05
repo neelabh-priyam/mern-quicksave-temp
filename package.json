@@ -2,7 +2,7 @@
     "name": "mern-quicksave",
     "version": "1.0.0",
     "scripts": {
-        "start": "npm --prefix ./server/index.js start",
+        "start": "node ./server/index.js",
         "heroku-prebuild": "npm --prefix ./client install && npm --prefix ./client build",
         "heroku-postbuild": "npm --prefix ./server install"
     }
