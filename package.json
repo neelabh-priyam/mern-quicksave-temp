@@ -2,6 +2,7 @@
     "name": "mern-quicksave",
     "version": "1.0.0",
     "scripts": {
-        "postinstall": "npm install --prefix ./server && npm install --prefix ./client && npm build --prefix ./client"
+        "heroku-prebuild": "npm --prefix client install && npm --prefix client build",
+        "heroku-postbuild": "npm --prefix server install"
     }
 }
